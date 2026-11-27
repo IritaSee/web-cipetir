@@ -7,6 +7,14 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Demo frontend statis
+
+Folder `demo-static/` berisi frontend HTML, CSS, dan JavaScript statis yang terpisah dari aplikasi Laravel. Data yang ditampilkan adalah contoh; pengiriman pengaduan dan unduhan formulir belum tersedia. Pelacakan tiket hanya simulasi di browser.
+
+Untuk men-deploy demo melalui Vercel, impor repositori dan atur **Root Directory** ke `demo-static`. Pilih framework **Other** dan kosongkan Build Command. Konfigurasi `vercel.json` mengaktifkan URL tanpa ekstensi `.html`. Folder ini juga dapat di-deploy langsung dari terminal dengan `cd demo-static` lalu `vercel`.
+
+Halaman demo menyertakan `noindex` dan `robots.txt` untuk membatasi pengindeksan, tetapi ini tidak menjamin kerahasiaan dan URL yang dibagikan tetap dapat diakses publik. Jangan gunakan data pribadi atau data resmi yang belum diverifikasi.
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
